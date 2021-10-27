@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(rgb(98, 98, 255), white);
+    margin: 0%;
 }
 
 .head {
@@ -17,7 +18,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin: auto;
-    width: 75%;
+    min-width: 520px;
+    max-width: 600px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 20px;
@@ -48,7 +50,8 @@ img {
 }
 
 #logo {
-    width: 60%;
+    width: 70%;
+    max-width: 80%;
     margin-top: 15px;
     margin-bottom: 10px;
     cursor: default;
@@ -57,19 +60,22 @@ img {
 #mugiwara {
     display: block;
     margin: auto;
-    width:60%;
+    width: 100%;
+    max-width: 400px;
 }
 
 #rei {
     display: block;
     margin: auto;
-    width: 35%;
+    width: 100%;
+    max-width: 300px;
 }
 
 #poneglifo {
     display: block;
     margin: auto;
-    width: 35%;
+    width: 100%;
+    max-width: 500px;
 }
 
 #sagas {
@@ -122,17 +128,21 @@ menu:last-child {
 .arcos {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 100%;
+    max-width: 400px;
 }
 
 iframe {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 330px;
+    max-width: 700px;
     margin-top: 10px;
 }
 
 #sorrindo {
     display: block;
     margin: auto;
+    width: 100%;
+    max-width: 300px;
 }
