@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D94C1A;
+}
+
+.titles {
+    font-size: 2em;
+    color: #494535;
+}
+
+h2 {
+    color: #666854;
+}
+
+p {
+    text-align: justify;
+}
+
+div {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #c9360083;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1:hover {
+    color: red;
+    padding: 10px;
+}

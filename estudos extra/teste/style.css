@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 255, 221);
+}
+
+section {
+    background-color: white;
+    width: 60%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+}
+
+.lado {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.paragrafo {
+    width: 50%;
+}
+
+p {
+    text-align: justify;
+}
+
+.img {
+    width: 40%;
+}

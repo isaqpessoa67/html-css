@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <h1>Cadastro de Otário</h1>
+        <p>Complete suas informações:</p>
+        <br>
+    </div>
+
+    <form>
+        <fildset>
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+    
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id= "sobrenome">
+            </div>
+        </fildset>
+    <br>
+
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+        <label>Você toma banho todos os dias?</label>
+        <label>
+            <input type="radio" name="sim" value="">Sim
+        </label>
+        <label>
+            <input type="radio" name="não" value="">Não
+        </label>
+        <label>
+            <input type="radio" name="as vezes" value="">As vezes
+        </label>
+    </div>
+    <br>
+    <div>
+        <label>Idade</label>
+        <select id="idade">
+            <option selected disabled value="">Escolha</option>
+            <option value="">10-20</option>
+            <option value="">20-30</option>
+            <option value="">30-90</option>
+        </select>
+    </div>
+    <br>
+    <fieldset>
+        <label for="">Selecione o que você acha de você mesmo:</label>
+        <input type="checkbox" id="otario" name="otario" value="otario">
+        <label for="otario">Otario</label>
+        <input type="checkbox" id="Produtivo" name="Produtivo" value="Produtivo">
+        <label for="produtivo">Produtivo</label>
+        <input type="checkbox" id="Nenhum" name="Nenhum" value="Nenhum">
+        <label for="Nenhum">Nenhum</label>
+    </fieldset>
+    <br>
+    <div>
+        <label>Conte um pouco sobre sua experiencia sendo um otário:</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label>Suas hablidades:</label>
+        <input type="text">
+    </div>
+    <br>
+    <button type="submit">Concluido</button>
+    </form>
+</body>
+</html>

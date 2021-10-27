@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemP.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemM.jpg" type="image/jpg">
+        <img src="imagens/imagemG.jpg" alt="imagem flexivel">
+        <h1>Reproduzindo audio</h1>
+        <p>Vamos aprender a reproduzir audios em HTML5</p>
+        <audio preload="metadata" src="midia/forró-do-hf.mp3" controls loop autoplay>´
+        <source src="midia/forró-do-hf.mp3" type="audio/mpeg">
+        <source src="midia/forró-do-hf.ogg" type="audio/ogg">
+        <source src="midia/forró-do-hf.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir o audio, <a href="midia/forró-do-hf.mp3"> Clique aqui para baixar o arquivo em MP3</a></p>
+        </audio>
+    </picture>
+</body>
+</html>
